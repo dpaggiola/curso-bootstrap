@@ -52,3 +52,15 @@ Ya sea que quieras entrar a trabajar a una gran compañía o crear el sitio web 
 El curso consta de más de 80 videos y 15 horas de contenido en las que además tendrás acceso a todo el código del curso, incluyendo el código de las prácticas del portafolio, el panel de administración y la red social estilo Facebook.  
 
 Además tendrás acceso al panel de preguntas de cada video en el que podrás hacer cualquier pregunta y junto con un equipo de instructores vamos a responder tus dudas.   
+
+## Apuntes
+- El container es el contenedor principal, en el que irán todas las filas y columnas
+- Con el container podemos centrar nuestra página
+- Las filas (row) son grupos HORIZONTALES de columnas
+- Los tamaños de Columna en Bootstrap 5 son:
+  - .col        Extra Pequeño (Extra Small) - Smartphones Vertical        Menos de 576px
+  - .col-sm     Pequeño (Small)  - Smartphones Vertical                   Mas de 576px y Menos de 768px
+  - .col-md     Mediano (Medium) - Tablets                                Mas de 768px y Menos de 992px
+  - .col-lg     Largo (Large) - Computadoras                              Mas de 992px y Menos de 1200px
+  - .col-xl     Extra Largo (Extra Large) - Computadoras                  Mas de 1200px
+     .col-xxl    Extra Extra Largo (Extra Extra Large) - Televisores       Mas de 1400 px
