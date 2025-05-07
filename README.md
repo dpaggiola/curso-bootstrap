@@ -68,7 +68,13 @@ Además tendrás acceso al panel de preguntas de cada video en el que podrás ha
 - Dentro de la clase ROW del div se pueden indicar la alineación de los items con align-items-start (align-items-X)
 - Dentro de la clase COL del div se pueden indicar la alineación de los items dentro de la fila (ROW) con align-self-start (align-serlf-X)
 - Dentro de la clase ROW del div se pueden indicar la alineación de las columnas con justify-content-start (justify-content-X)
-  - Con el <div class="row justify-content-arround"> lo que se hace es distribuir el espacio de las columnas de ambos costados
-  - Con el <div class="row justify-content-between"> lo que se hace es distribuir el espacio de las columnas entre medio (Todo el espacio sobrante va en el medio)
-  - Con el <div class="row justify-content-evently"> lo que se hace es distribuir equitativamente el espacio restante
+  - Con la clase "justify-content-arround" lo que se hace es distribuir el espacio de las columnas de ambos costados
+  - Con la clase "justify-content-between" lo que se hace es distribuir el espacio de las columnas entre medio (Todo el espacio sobrante va en el medio)
+  - Con la clase class="row "justify-content-evently" lo que se hace es distribuir equitativamente el espacio restante
+- Dentro de la clase ROW del div se pueden indicar que no se utilice el gutter (espacio sobrante de la fila) agregando la clase "g-0"
+- Podemos establecer diferentes tamaños de gutters
+  -  g-0 No gutter
+  -  gx-5 Gutter Horizontal
+  -  gy-5 Gutter Vertical
+-  Dentro de la clase COL del div se pueden indicar un orden, un desplazamiento (offset) y también que se ajuste el tamaño al contenido con "col-auto"
     
