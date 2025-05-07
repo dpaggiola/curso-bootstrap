@@ -63,4 +63,12 @@ Además tendrás acceso al panel de preguntas de cada video en el que podrás ha
   - .col-md     Mediano (Medium) - Tablets                                Mas de 768px y Menos de 992px
   - .col-lg     Largo (Large) - Computadoras                              Mas de 992px y Menos de 1200px
   - .col-xl     Extra Largo (Extra Large) - Computadoras                  Mas de 1200px
-     .col-xxl    Extra Extra Largo (Extra Extra Large) - Televisores       Mas de 1400 px
+  - .col-xxl    Extra Extra Largo (Extra Extra Large) - Televisores       Mas de 1400 px
+- Dentro de la clase ROW del div se pueden indicar la cantidad máxima de columnas con ROW-COLS-X
+- Dentro de la clase ROW del div se pueden indicar la alineación de los items con align-items-start (align-items-X)
+- Dentro de la clase COL del div se pueden indicar la alineación de los items dentro de la fila (ROW) con align-self-start (align-serlf-X)
+- Dentro de la clase ROW del div se pueden indicar la alineación de las columnas con justify-content-start (justify-content-X)
+  - Con el <div class="row justify-content-arround"> lo que se hace es distribuir el espacio de las columnas de ambos costados
+  - Con el <div class="row justify-content-between"> lo que se hace es distribuir el espacio de las columnas entre medio (Todo el espacio sobrante va en el medio)
+  - Con el <div class="row justify-content-evently"> lo que se hace es distribuir equitativamente el espacio restante
+    
