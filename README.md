@@ -52,3 +52,23 @@ Ya sea que quieras entrar a trabajar a una gran compañía o crear el sitio web 
 El curso consta de más de 80 videos y 15 horas de contenido en las que además tendrás acceso a todo el código del curso, incluyendo el código de las prácticas del portafolio, el panel de administración y la red social estilo Facebook.  
 
 Además tendrás acceso al panel de preguntas de cada video en el que podrás hacer cualquier pregunta y junto con un equipo de instructores vamos a responder tus dudas.   
+
+## Apuntes
+- El container es el contenedor principal, en el que irán todas las filas y columnas
+- Con el container podemos centrar nuestra página
+- Las filas (row) son grupos HORIZONTALES de columnas
+- Los tamaños de Columna en Bootstrap 5 son:
+  - .col        Extra Pequeño (Extra Small) - Smartphones Vertical        Menos de 576px
+  - .col-sm     Pequeño (Small)  - Smartphones Vertical                   Mas de 576px y Menos de 768px
+  - .col-md     Mediano (Medium) - Tablets                                Mas de 768px y Menos de 992px
+  - .col-lg     Largo (Large) - Computadoras                              Mas de 992px y Menos de 1200px
+  - .col-xl     Extra Largo (Extra Large) - Computadoras                  Mas de 1200px
+  - .col-xxl    Extra Extra Largo (Extra Extra Large) - Televisores       Mas de 1400 px
+- Dentro de la clase ROW del div se pueden indicar la cantidad máxima de columnas con ROW-COLS-X
+- Dentro de la clase ROW del div se pueden indicar la alineación de los items con align-items-start (align-items-X)
+- Dentro de la clase COL del div se pueden indicar la alineación de los items dentro de la fila (ROW) con align-self-start (align-serlf-X)
+- Dentro de la clase ROW del div se pueden indicar la alineación de las columnas con justify-content-start (justify-content-X)
+  - Con el <div class="row justify-content-arround"> lo que se hace es distribuir el espacio de las columnas de ambos costados
+  - Con el <div class="row justify-content-between"> lo que se hace es distribuir el espacio de las columnas entre medio (Todo el espacio sobrante va en el medio)
+  - Con el <div class="row justify-content-evently"> lo que se hace es distribuir equitativamente el espacio restante
+    
